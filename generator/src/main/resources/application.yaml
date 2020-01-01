@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///mp?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+
+logging:
+  level:
+    root: warn
+    com.example: trace
+  pattern:
+    console: '%p%m%n'

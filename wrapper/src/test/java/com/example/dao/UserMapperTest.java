@@ -217,7 +217,7 @@ public class UserMapperTest {
      */
     @Test
     public void testCondition() {
-        String name = "王";
+        String name = "王哈哈";
         String email = "";
         condition(name, email);
     }
